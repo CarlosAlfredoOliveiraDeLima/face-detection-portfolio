@@ -1,4 +1,4 @@
-# 🎯 Sistema de Detecção Facial
+# Sistema de Detecção Facial
 
 Portfólio de um sistema completo de detecção facial usando arquitetura de microserviços, composto por três componentes principais: uma interface de usuário em Angular, uma API middleware em Spring Boot, e um serviço de processamento de imagens em Flask/Python.
 
@@ -13,11 +13,11 @@ Portfólio de um sistema completo de detecção facial usando arquitetura de mic
 ![OpenCV](https://img.shields.io/badge/opencv-4.12.0-red.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## 📋 Visão Geral
+## Visão Geral
 
 Este repositório central contém a documentação e os links para os três componentes que formam o sistema de detecção facial. Juntos, esses componentes permitem aos usuários carregar imagens, processá-las para detectar faces usando algoritmos de visão computacional, e visualizar os resultados com marcações visuais.
 
-## 🏗️ Arquitetura
+## Arquitetura
 
 ![Arquitetura do Sistema](Architecture.png)
 
@@ -27,7 +27,7 @@ O sistema segue uma arquitetura de microserviços com três componentes principa
 2. **API Middleware (Spring Boot)** - Camada intermediária para roteamento e tratamento de requisições
 3. **Serviço de Detecção Facial (Flask/Python)** - Núcleo de processamento que realiza a detecção facial
 
-## 🚀 Componentes do Sistema
+## Componentes do Sistema
 
 ### 1. Interface de Usuário Angular
 
@@ -65,7 +65,7 @@ Microserviço Python especializado na detecção de rostos em imagens usando Ope
 
 **Repositório:** [Face Detection Core Python](https://github.com/CarlosAlfredoOliveiraDeLima/face-detection-core-python)
 
-## 🖼️ Exemplo de Uso
+## Exemplo de Uso
 
 ### Imagem Original (Entrada)
 
@@ -77,7 +77,7 @@ Microserviço Python especializado na detecção de rostos em imagens usando Ope
 
 > **Observação:** O resultado da detecção pode variar dependendo da imagem de entrada. Para ajustar a sensibilidade e precisão da detecção, é possível configurar os parâmetros do algoritmo HaarCascade no serviço Flask, como scaleFactor, minNeighbors e minSize.
 
-## 🛠️ Como Executar o Sistema Completo
+## Como Executar o Sistema Completo
 
 Para executar o sistema completo, você precisa iniciar cada componente separadamente:
 
@@ -93,14 +93,14 @@ Para executar o sistema completo, você precisa iniciar cada componente separada
 4. **Acesse a aplicação**
    - Abra seu navegador e acesse `http://localhost:4200`
 
-## 📄 Licença
+## Licença
 
 Este projeto está sob a licença MIT.
 
-## 👥 Autor
+## Autor
 
 - **Carlos Alfredo Oliveira de Lima** - [GitHub](https://github.com/CarlosAlfredoOliveiraDeLima)
 
 ---
 
-⭐ **Gostou do projeto? Deixe uma estrela!** ⭐
+**Gostou do projeto? Deixe uma estrela!**
