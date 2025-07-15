@@ -39,9 +39,7 @@ Aplicação frontend desenvolvida em Angular para permitir o upload de imagens e
 - Exibição do número de rostos detectados
 - Visualização da imagem processada com marcações
 
-**Repositório:** [Face Detection UI Angular](#) <!-- Link será adicionado posteriormente -->
-
-[Mais detalhes sobre o componente Angular](README-angular.md)
+**Repositório:** [Face Detection UI Angular](https://github.com/CarlosAlfredoOliveiraDeLima/face-detection-ui-angular) 
 
 ### 2. API Middleware Spring Boot
 
@@ -53,9 +51,7 @@ API REST em Java que atua como middleware entre o frontend e o serviço de proce
 - Exposição de informações via cabeçalhos HTTP personalizados
 - Tratamento de erros robusto
 
-**Repositório:** [Face Detection API Java](#) <!-- Link será adicionado posteriormente -->
-
-[Mais detalhes sobre o componente Spring Boot](README-Spring.md)
+**Repositório:** [Face Detection API Java](https://github.com/CarlosAlfredoOliveiraDeLima/face-detection-api-spring)
 
 ### 3. Serviço de Detecção Facial Python/Flask
 
@@ -67,9 +63,7 @@ Microserviço Python especializado na detecção de rostos em imagens usando Ope
 - Retorno de imagens anotadas com retângulos
 - Contagem do número de rostos detectados
 
-**Repositório:** [Face Detection Core Python](#) <!-- Link será adicionado posteriormente -->
-
-[Mais detalhes sobre o componente Flask](README-Flask.md)
+**Repositório:** [Face Detection Core Python](https://github.com/CarlosAlfredoOliveiraDeLima/face-detection-core-python)
 
 ## 🖼️ Exemplo de Uso
 
